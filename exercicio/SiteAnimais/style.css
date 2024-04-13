@@ -1,21 +1,3 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Bebas';
-    src: url('Fontes/BebasNeue-Regular.otf') format('opentype'), url('Fontes/CaviarDreams.ttf') format('truetype');
-    font-weight: normal;
-}
-
-:root {
-    --cor0:#0e6900;
-    --cor1:#f19500;
-    --cor2:#fefe07;
-    --cor3:#002582;
-    --cor4:#ff0000;
-    --cor5:#38009a;
-
-    --fonte-padrao:'Arial', 'verdana','helvetica','sans-serif';
-    --fonte-destaque:'CaviarDreams';
-    --fonte-Bebas:'Bebas';
-
-}
+@import url();

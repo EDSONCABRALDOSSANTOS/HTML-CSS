@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googlepis.com/css2? family= Bebas+Neue & family= Pcifico & display=swap');
+
+@font-face {
+    font-family: 'LEMON';
+    src: url('fontes/LEMONMILK-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0:#dc8409;
+    --cor1:#50e206;
+    --cor2:#e8200a;
+    --cor3:#41028f;
+    --cor4:#fff200;
+    --cor5:#00245e;
+
+    --fonte-padrão:'Arial','verdana','helvetica',sans-serif;
+    --fonte-destaque:'Bebas Neue';    
+    --fonte-lemon:'LEMON',cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-lemon);
+}
